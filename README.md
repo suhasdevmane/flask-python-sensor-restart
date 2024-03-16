@@ -17,6 +17,6 @@ services:
       dockerfile: Dockerfile
     container_name: flask-web-app
     volumes:
-      - ./flask-python/:/app
+      - ./flask-python-sensor-restart/:/app
     ports:
       - "5000:5000"
