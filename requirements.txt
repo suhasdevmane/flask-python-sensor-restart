@@ -1,0 +1,2 @@
+flask
+meross_iot==0.4.6.2
