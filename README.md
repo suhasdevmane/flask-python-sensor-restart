@@ -1,8 +1,14 @@
 # flask-python-sensor-restart
-flask-python-sensor-restart for turning on off sensor with smart plugs meross rss310. 
 
-Use Docker-compose up --build on first use. 
-write the docker-compose.yml with following lines of code
+This project aims to control sensors using smart plugs, specifically Meross MSS310, with a Flask-based web application.
+
+## Usage
+
+### Running the Application
+
+To run the application for the first time, use `docker-compose up --build` command.
+
+```yaml
 version: "3.0"
 services:
   flask-web-app:
