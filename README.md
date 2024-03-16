@@ -13,10 +13,10 @@ version: "3.0"
 services:
   flask-web-app:
     build:
-      context: ./flask-python
+      context: .
       dockerfile: Dockerfile
     container_name: flask-web-app
     volumes:
-      - ./flask-python-sensor-restart/:/app
+      - .:/app
     ports:
       - "5000:5000"
